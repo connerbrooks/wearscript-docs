@@ -42,3 +42,26 @@ This script demonstrates pebble click events, setting text in the view, vibratio
     </body>
     </html>   
 
+pebbleSetTitle(String text, boolean clear) : void
+  Set the title text area on the pebble view. 
+
+pebbleSetSubtitle(String text, boolean clear) : void
+  Set the subtitle text area on pebble view.
+
+pebbleSetBody(String text, boolean clear) : void
+  Set the body text area on pebble view.
+  
+  :text(string): text to display on pebble
+  :clear(boolean): boolean to clear other text areas (true clears all other text areas) 
+
+pebbleVibe(int vibeType)
+  Vibrate pebble.
+
+======== =======
+  Type    Value
+======== =======
+short     0
+long      1
+double    2
+======== =======
+

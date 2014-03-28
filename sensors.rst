@@ -27,6 +27,7 @@ Sensors have unique names and integer types that are used internally and can be 
 ===================  =======
       Type            Value
 ===================  =======
+pebble                -7
 pupil                 -2
 gps                   -1
 accelerometer         1
